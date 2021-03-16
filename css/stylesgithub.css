@@ -1,0 +1,31 @@
+body{
+  background-color:white;
+  font-size:1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*
+header{
+    background:white;
+    color: cornsilk;
+    padding: 5%;
+    height: 50px;
+    display: block;
+
+}*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*
+.container{
+  margin-left: 10px;
+}
+.imgs{
+  padding:5px;
+  border: 1px solid;
+  height:150px;
+  width: 50%;
+}
+*/

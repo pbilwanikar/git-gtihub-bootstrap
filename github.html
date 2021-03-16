@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Github</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/stylesgithub.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar  navbar-expand-lg navbar-light" style="background-color: #e3f2fd;" height="200px" width="200px">
+    <a class="navbar-brand" href="https://www.analyticsdomain.com/">
+      <img src="images/AD LOGO.png" width="30" height="30" alt="">
+      Analytics Domain
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Git And GitHub.html">GIT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="github.html">GITHUB</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <font color="green">
+    <div class="center">
+      <img src="images/gitsocialcoding.jpeg" alt="git-social-icon" class="center">
+      <p align="center"><b>GitHub is a code hosting platform for version control and
+          collaboration. It lets you and others work together on projects from anywhere.</b></p>
+    </div>
+    <br>
+    <h2 align="center">To Get Started With GitHub</h2>
+    <br>
+    <p>You must already have Git and Github on your desktop also all the code and
+      are performed on command line. Github account is also required.</p>
+    <a href="https://github.com/git-guides/install-git">Installing git and github account creation </a>
+
+    <div class="container">
+
+      <h3>STEP 1: Creating a local repository</h3>
+      <p>For creating a local repository we’ll be using terminal. Before moving
+        forward, we’ll require basic knowledge of terminal.</p>
+      <a href="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview">Tutorial for terminal basics</a>
+      <p>Creating a local repository with name localrepo.</p>
+      <img src="images/p_localrepo.png" alt="local repo" class="imgs">
+      <br>
+      <p>To intilize a git repository in the root folder, we use git init command.</p>
+      <img src="images/gitinit.png" alt="git-init" class="imgs">
+      <br>
+      <h3>STEP 2: Adding file to the repository</h3>
+      <p>We will create a simple text file in our project folder using any textEditor.
+        I have created a ‘filerepo.txt’. <br><br> Now after adding and modifying the
+        files, git will not automatically detect those files. We will have to
+        explicitly tell git that there is file and it needs to get it. Git only
+        saves/manages changes to files that it tracks, so we’ll need to send a command
+        to confirm that yes, we want git to track our new file.</p>
+      <img src="images/newrepo.png" alt="new-repo" class="imgs">
+      <p>Now we will use git status command to see which files git knows exist.</p>
+      <img src="images/gitstatus.png" alt="git-status" class="imgs">
+      <p>Now all this lines means that GIT has observed us creating a file
+        named ‘ filerepo.txt ’ but unless we use ‘ git add ’ command,
+        it won’t be doing anything.</p>
+      <br>
+      <h3>STEP 3: Add file to the staging enviornment</h3>
+      <p>Now we will use git add command and rerun the git status command
+        and would be observing the changes.</p>
+      <img src="images/gitstatcom.png" alt="git-status-command" class="imgs">
+      <br>
+      <h3>STEP 4: Create a Commit</h3>
+      <p>We will be using git commit -m ‘Your message’. </p>
+      <img src="images/gitcommit.png" alt="git-commit" class="imgs">
+      <p><b>Hooray!!!! And here we have made our first commit. </b></p>
+      <br>
+      <br>
+      <h2>VIDEO REFERENCE</h2>
+      <a href="https://www.youtube.com/watch?v=uj4fy4kpaOA&t=19s">Love Babbar's Git and Github video for beginners</a>
+      <br>
+      <br>
+      <a href="https://www.youtube.com/watch?v=iR5WIknxdkY">Apki Kaksha Git and Github beginners video </a>
+    </div>
+    <br>
+  </font>
+</body>
+
+</html>
